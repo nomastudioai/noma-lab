@@ -1,0 +1,83 @@
+{
+ "nota": "Archivo de referencia legible del proyecto. El grafo ejecutable canonico (save format completo con links) vive en la UI de ComfyUI como nn-e01-seedance-r2v-multishot.json y se corre con run_saved_workflow.",
+ "_meta": {
+  "name": "NN-E01-Seedance-R2V-multishot",
+  "etapa": "B - Animacion (metodologia vigente 13/06/2026)",
+  "fecha": "13/06/2026",
+  "descripcion": "Seedance 2.0 Reference-to-Video multishot. image_1 = frame ancla (frame inicial), image_2 = traje, image_3 = ENV terraza, image_4 = ENV fachada -> ByteDance2ReferenceNode (480p, 9:16, 15s, audio ON) -> SaveVideo. El resto de la secuencia sale por prompt multishot timestampeado. Refs cloud: ancla=d270758, traje=01c92e8f, terraza=9507ffdc, fachada=586e7191. Submit en SAVE format (autogrow de reference_images). Validado: prompt_id 173914e7 (terraza->revelacion picada->caida).",
+  "guardado_ui": "nn-e01-seedance-r2v-multishot.json",
+  "widgets_orden_ByteDance2ReferenceNode": "[model, prompt, resolution, ratio, duration, generate_audio, auto_downscale, auto_upscale, seed, seed_control, watermark]"
+ },
+ "nodes": [
+  {
+   "id": 344,
+   "type": "SaveVideo",
+   "inputs_link": {
+    "video": [
+     "360",
+     0
+    ]
+   },
+   "widgets_values": [
+    "video/NN_E01_pilototest_r2v",
+    "auto",
+    "auto"
+   ]
+  },
+  {
+   "id": 356,
+   "type": "LoadImage",
+   "widgets_values": [
+    "d270758255b26d1c453f723c0581b92a531ff46b57c4a01f56357747f003c2dc.png (ancla / frame inicial)",
+    "image"
+   ]
+  },
+  {
+   "id": 352,
+   "type": "LoadImage",
+   "widgets_values": [
+    "01c92e8f55529838c98b88a7eadabd29dbfac7766ef8df6fb3ae82d3546ead54.png (traje turnaround v02)",
+    "image"
+   ]
+  },
+  {
+   "id": 353,
+   "type": "LoadImage",
+   "widgets_values": [
+    "9507ffdcbd01b13c428f0648d370175749e25f27ef5ee676060e802538ddf5bc.png (ENV-01 terraza)",
+    "image"
+   ]
+  },
+  {
+   "id": 354,
+   "type": "LoadImage",
+   "widgets_values": [
+    "586e7191d191d27d02dd03aea9edaeece480e869ccda7f86e0c9d6a210c2b685.png (ENV-02 fachada)",
+    "image"
+   ]
+  },
+  {
+   "id": 360,
+   "type": "ByteDance2ReferenceNode",
+   "widgets_values": [
+    "Seedance 2.0",
+    "<PROMPT MULTISHOT timestampeado: terraza gaze [0-5s] -> reveal vertical facade [5-9s] -> free-fall down [9-15s], con dialogo rioplatense textual y SFX; declarar rol de cada reference image; mantener emblema N cian consistente>",
+    "480p",
+    "9:16",
+    15,
+    true,
+    true,
+    false,
+    0,
+    "randomize",
+    false
+   ],
+   "reference_images": {
+    "image_1": 356,
+    "image_2": 352,
+    "image_3": 353,
+    "image_4": 354
+   }
+  }
+ ]
+}

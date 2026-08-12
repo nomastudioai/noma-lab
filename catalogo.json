@@ -1,0 +1,695 @@
+[
+ {
+  "tipo": "prompt",
+  "titulo": "arquero granadero sin logo",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/arquero-granadero-sin-logo.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Casa Rosada anime energia",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/casa-rosada-anime-energia.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Character reference sheet of the man in the reference photo as a modern Argentine national football player.",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/character-reference-sheet-of-the-man-in-the-reference-photo-as-a-moder.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Character reference sheet of the man in the reference photo as a modern Argentine national football player.",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/character-reference-sheet-of-the-man-in-the-reference-photo-as-a-moder-2.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Character reference sheet of the man in the reference photo as a modern Argentine national football player.",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/character-reference-sheet-of-the-man-in-the-reference-photo-as-a-moder-3.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Character reference sheet of the man in the reference photo as a modern Argentine national football player.",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/character-reference-sheet-of-the-man-in-the-reference-photo-as-a-moder-4.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Character reference sheet of the man in the reference photo as a modern Argentine national football player.",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/character-reference-sheet-of-the-man-in-the-reference-photo-as-a-moder-5.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Character reference sheet of the man in the reference photo as a modern Argentine national football player.",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/character-reference-sheet-of-the-man-in-the-reference-photo-as-a-moder-6.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Character reference sheet of the man in the reference photo as a modern Spain national football player, a goalkeeper wea",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/character-reference-sheet-of-the-man-in-the-reference-photo-as-a-moder-7.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Character reference sheet of the young man shown in the FIRST reference photo.",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/character-reference-sheet-of-the-young-man-shown-in-the-first-referenc.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Character reference sheet of the young man shown in the FIRST reference photo.",
+  "modelo": "Seedream 4.5",
+  "modalidad": "image",
+  "archivo": "prompts/image/character-reference-sheet-of-the-young-man-shown-in-the-first-referenc-2.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "defensor granadero sin logo",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/defensor-granadero-sin-logo.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "deep rising energy charge, humming power building up to a peak, sci-fi, cinematic",
+  "modelo": "ElevenLabs Sound Generation",
+  "modalidad": "audio",
+  "archivo": "prompts/audio/deep-rising-energy-charge-humming-power-building-up-to-a-peak-sci-fi-c.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "jugador granadero sin logo",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/jugador-granadero-sin-logo.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Gavi kit rojo retry",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/gavi-kit-rojo-retry.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "granadero extra ref uniforme azul",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/granadero-extra-ref-uniforme-azul.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "huge football stadium crowd roar and euphoric cheer, goal celebration",
+  "modelo": "ElevenLabs Sound Generation",
+  "modalidad": "audio",
+  "archivo": "prompts/audio/huge-football-stadium-crowd-roar-and-euphoric-cheer-goal-celebration.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "jugador granadero sin logo",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/jugador-granadero-sin-logo-2.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Licha granadero sin logo",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/licha-granadero-sin-logo.md"
+ },
+ {
+  "tipo": "workflow",
+  "titulo": "locucion con ElevenLabs y clonado de voz",
+  "modelo": "ElevenLabs Multilingual v2",
+  "modalidad": "audio",
+  "archivo": "workflows/voz_elevenlabs_tts.json"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "massive energy explosion impact boom with shockwave",
+  "modelo": "ElevenLabs Sound Generation",
+  "modalidad": "audio",
+  "archivo": "prompts/audio/massive-energy-explosion-impact-boom-with-shockwave.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Monumento Bandera Rosario anime energia",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/monumento-bandera-rosario-anime-energia.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Obelisco anime energia",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/obelisco-anime-energia.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Paredes granadero sin logo",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/paredes-granadero-sin-logo.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Perito Moreno anime energia",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/perito-moreno-anime-energia.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "San Martin (diez) granadero sin logo",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/san-martin-diez-granadero-sin-logo.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Tagliafico granadero sin logo",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/tagliafico-granadero-sin-logo.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Turn this real photo into a painterly realistic anime scene, Attack on Titan / Demon Slayer style, bold lineart, cel sha",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/turn-this-real-photo-into-a-painterly-realistic-anime-scene-attack-on.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Unai Simon sheet",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/unai-simon-sheet.md"
+ },
+ {
+  "tipo": "workflow",
+  "titulo": "frame cero con GPT Image 2",
+  "modelo": "GPT Image 2",
+  "modalidad": "image",
+  "archivo": "workflows/NN-E01-FrameCero-gptimage2.json"
+ },
+ {
+  "tipo": "workflow",
+  "titulo": "Seedance reference-to-video multishot",
+  "modelo": "Seedance 2.0",
+  "modalidad": "video",
+  "archivo": "workflows/NN-E01-Seedance-R2V-multishot.json"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "2D cel anime keyframe, Cyberpunk: Edgerunners / Studio Trigger style, bold linework, saturated neon palette.",
+  "modelo": "GPT Image 2",
+  "modalidad": "image",
+  "archivo": "prompts/image/2d-cel-anime-keyframe-cyberpunk-edgerunners-studio-trigger-style-bold.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "30 second realistic comedy: profile picture comes alive, celebrates 10k followers, clones multiply and squish against ca",
+  "modelo": "Kling Omni Pro (primer y ultimo frame)",
+  "modalidad": "video",
+  "archivo": "prompts/video/30-second-realistic-comedy-profile-picture-comes-alive-celebrates-10k.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Argentinos...",
+  "modelo": "ElevenLabs Multilingual v2",
+  "modalidad": "audio",
+  "archivo": "prompts/audio/argentinos.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Argentinos...",
+  "modelo": "ElevenLabs Multilingual v2",
+  "modalidad": "audio",
+  "archivo": "prompts/audio/argentinos-2.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Character reference sheet of the young man from the FIRST reference photo.",
+  "modelo": "Seedream 4.5",
+  "modalidad": "image",
+  "archivo": "prompts/image/character-reference-sheet-of-the-young-man-from-the-first-reference-ph.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Character reference sheet of the young man from the FIRST reference photo.",
+  "modelo": "Seedream 4.5",
+  "modalidad": "image",
+  "archivo": "prompts/image/character-reference-sheet-of-the-young-man-from-the-first-reference-ph-2.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Character reference sheet of the young man from the FIRST reference photo.",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/character-reference-sheet-of-the-young-man-from-the-first-reference-ph-3.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Character reference sheet of the young man from the FIRST reference photo.",
+  "modelo": "Seedream (BytePlus)",
+  "modalidad": "image",
+  "archivo": "prompts/image/character-reference-sheet-of-the-young-man-from-the-first-reference-ph-4.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Cinematic black hole: short reverse suction riser into a massive deep sub-bass boom with cosmic gravitational rumble",
+  "modelo": "ElevenLabs SFX v2",
+  "modalidad": "audio",
+  "archivo": "prompts/audio/cinematic-black-hole-short-reverse-suction-riser-into-a-massive-deep-s.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Dark ethereal cinematic ambient underscore, cosmic mystery emerging from the void, slowly evolving deep synth drone pads",
+  "modelo": "Stable Audio 2.5",
+  "modalidad": "audio",
+  "archivo": "prompts/audio/dark-ethereal-cinematic-ambient-underscore-cosmic-mystery-emerging-fro.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Dark smoke burst: airy billowing gust of smoke, soft wispy swirling whoosh",
+  "modelo": "ElevenLabs SFX v2",
+  "modalidad": "audio",
+  "archivo": "prompts/audio/dark-smoke-burst-airy-billowing-gust-of-smoke-soft-wispy-swirling-whoo.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Edit image 1 with one single change: reshape the running character's coral starburst head so it matches the Claude logo",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/edit-image-1-with-one-single-change-reshape-the-running-characters-cor.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Edit this character reference sheet.",
+  "modelo": "Seedream 4.5",
+  "modalidad": "image",
+  "archivo": "prompts/image/edit-this-character-reference-sheet.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Edit this character reference sheet.",
+  "modelo": "Seedream 4.5",
+  "modalidad": "image",
+  "archivo": "prompts/image/edit-this-character-reference-sheet-2.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Edit this character reference sheet.",
+  "modelo": "Seedream 4.5",
+  "modalidad": "image",
+  "archivo": "prompts/image/edit-this-character-reference-sheet-3.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Edit this square meme.",
+  "modelo": "GPT Image 2",
+  "modalidad": "image",
+  "archivo": "prompts/image/edit-this-square-meme.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "epic anime cavalry charging in a blizzard, cinematic",
+  "modelo": "Seedance 2.0 mini",
+  "modalidad": "video",
+  "archivo": "prompts/video/epic-anime-cavalry-charging-in-a-blizzard-cinematic.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Epic cinematic orchestral battle music, trailer style.",
+  "modelo": "Sonilo (texto a musica)",
+  "modalidad": "audio",
+  "archivo": "prompts/audio/epic-cinematic-orchestral-battle-music-trailer-style.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Epic historical seinen anime film: Argentine cavalry crossing the snowy Andes.",
+  "modelo": "Kling Omni Pro (imagen a video)",
+  "modalidad": "video",
+  "archivo": "prompts/video/epic-historical-seinen-anime-film-argentine-cavalry-crossing-the-snowy.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Epic historical seinen anime film: Argentine cavalry crossing the snowy Andes toward a glowing stadium.",
+  "modelo": "Kling Omni Pro (imagen a video)",
+  "modalidad": "video",
+  "archivo": "prompts/video/epic-historical-seinen-anime-film-argentine-cavalry-crossing-the-snowy-2.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Epic historical seinen anime film: Argentine cavalry revealing a glowing stadium from a snowy summit.",
+  "modelo": "Kling Omni Pro (imagen a video)",
+  "modalidad": "video",
+  "archivo": "prompts/video/epic-historical-seinen-anime-film-argentine-cavalry-revealing-a-glowin.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "FPV drone one-take flight through Buenos Aires at night (Obelisco, Caminito, Puerto Madero)",
+  "modelo": "Seedance 2.0",
+  "modalidad": "video",
+  "archivo": "prompts/video/fpv-drone-one-take-flight-through-buenos-aires-at-night-obelisco-camin.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Full-body character reference sheet, single subject, on a plain light-grey studio background.",
+  "modelo": "Seedream (BytePlus)",
+  "modalidad": "image",
+  "archivo": "prompts/image/full-body-character-reference-sheet-single-subject-on-a-plain-light-gr.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Generate 5 separate character reference sheets, one per character, all sharing the exact same art style: dark realistic",
+  "modelo": "Seedream 4.5",
+  "modalidad": "image",
+  "archivo": "prompts/image/generate-5-separate-character-reference-sheets-one-per-character-all-s.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "huge passionate Argentine football stadium crowd, bombo drum, singing and chanting rhythmically, roaring",
+  "modelo": "ElevenLabs Sound Generation",
+  "modalidad": "audio",
+  "archivo": "prompts/audio/huge-passionate-argentine-football-stadium-crowd-bombo-drum-singing-an.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Humorous editorial cartoon meme, square 1:1 format.",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/humorous-editorial-cartoon-meme-square-11-format.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Keep the exact same 3D stylized character, the same face, hair and beard, and the same black t-shirt with the identical",
+  "modelo": "Gemini 3 Pro Image",
+  "modalidad": "image",
+  "archivo": "prompts/image/keep-the-exact-same-3d-stylized-character-the-same-face-hair-and-beard.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Keep the exact same 3D stylized character, the same face, hair and beard, and the same black t-shirt with the identical",
+  "modelo": "Gemini 3 Pro Image",
+  "modalidad": "image",
+  "archivo": "prompts/image/keep-the-exact-same-3d-stylized-character-the-same-face-hair-and-beard-2.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Keep the exact same 3D stylized character, the same face, hair and beard, and the same black t-shirt with the identical",
+  "modelo": "Gemini 3 Pro Image",
+  "modalidad": "image",
+  "archivo": "prompts/image/keep-the-exact-same-3d-stylized-character-the-same-face-hair-and-beard-3.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Liquid water morph: sudden watery splash whoosh with bubbling flowing water surge",
+  "modelo": "ElevenLabs SFX v2",
+  "modalidad": "audio",
+  "archivo": "prompts/audio/liquid-water-morph-sudden-watery-splash-whoosh-with-bubbling-flowing-w.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Magical instant freeze: fast crystalline ice crackling and glassy frost spreading, shimmering cold tail",
+  "modelo": "ElevenLabs SFX v2",
+  "modalidad": "audio",
+  "archivo": "prompts/audio/magical-instant-freeze-fast-crystalline-ice-crackling-and-glassy-frost.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Meme Fable escapando Alcatraz v2 - texto FABLE 5 IS FREE, logo Claude real",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/meme-fable-escapando-alcatraz-v2---texto-fable-5-is-free-logo-claude-r.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Meme Fable escapando de Alcatraz perseguido por ICE, logo de Claude",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/meme-fable-escapando-de-alcatraz-perseguido-por-ice-logo-de-claude.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Painterly seinen anime style like Attack on Titan, cinematic, epic, film grain.",
+  "modelo": "Seedance 2.0 mini",
+  "modalidad": "video",
+  "archivo": "prompts/video/painterly-seinen-anime-style-like-attack-on-titan-cinematic-epic-film.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Painterly seinen anime style, snowy mountain scenes with the general from the reference image.",
+  "modelo": "Kling Omni Pro (imagen a video)",
+  "modalidad": "video",
+  "archivo": "prompts/video/painterly-seinen-anime-style-snowy-mountain-scenes-with-the-general-fr.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Redraw the exact man shown in reference image 1 (face close-up) and reference image 2 (full body) as an anime character,",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/redraw-the-exact-man-shown-in-reference-image-1-face-close-up-and-refe.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "script_test",
+  "modelo": "Seedance",
+  "modalidad": "video",
+  "archivo": "prompts/video/script-test.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Sudden fire ignition burst: a deep fwoom of flames igniting instantly, with a short crackling embers tail",
+  "modelo": "ElevenLabs SFX v2",
+  "modalidad": "audio",
+  "archivo": "prompts/audio/sudden-fire-ignition-burst-a-deep-fwoom-of-flames-igniting-instantly-w.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "The five soldiers from the reference images stand in a line on a snowy mountain ridge at dawn, snow falling, camera slow",
+  "modelo": "Kling Omni Pro (imagen a video)",
+  "modalidad": "video",
+  "archivo": "prompts/video/the-five-soldiers-from-the-reference-images-stand-in-a-line-on-a-snowy.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "The general from the reference image, keeping his exact face and uniform, rides a black horse through falling snow towar",
+  "modelo": "Kling Omni Pro (imagen a video)",
+  "modalidad": "video",
+  "archivo": "prompts/video/the-general-from-the-reference-image-keeping-his-exact-face-and-unifor.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "the man from reference image 1 rides a black horse...",
+  "modelo": "Seedance 2.0 mini",
+  "modalidad": "video",
+  "archivo": "prompts/video/the-man-from-reference-image-1-rides-a-black-horse.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "the man from reference image 1 rides a black horse through snow, anime style",
+  "modelo": "Seedance 2.0 mini",
+  "modalidad": "video",
+  "archivo": "prompts/video/the-man-from-reference-image-1-rides-a-black-horse-through-snow-anime.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "The man speaks directly into the camera lens, making eye contact with the viewer, calm confident delivery, subtle natura",
+  "modelo": "Kling Avatar",
+  "modalidad": "video",
+  "archivo": "prompts/video/the-man-speaks-directly-into-the-camera-lens-making-eye-contact-with-t.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "The man speaks to camera with calm confidence, subtle natural head movement, static shot.",
+  "modelo": "Kling Avatar",
+  "modalidad": "video",
+  "archivo": "prompts/video/the-man-speaks-to-camera-with-calm-confidence-subtle-natural-head-move.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Turn the man from reference image 1 into an anime character.",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/turn-the-man-from-reference-image-1-into-an-anime-character.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Turn the man from reference image 1 into an anime character.",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/turn-the-man-from-reference-image-1-into-an-anime-character-2.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Turn the man from reference image 1 into an anime character.",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/turn-the-man-from-reference-image-1-into-an-anime-character-3.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Turn the man from reference image 1 into an anime character.",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/turn-the-man-from-reference-image-1-into-an-anime-character-4.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Turn the man from reference image 1 into an anime character.",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/turn-the-man-from-reference-image-1-into-an-anime-character-5.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Turn the man from reference image 1 into an anime character.",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/turn-the-man-from-reference-image-1-into-an-anime-character-6.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Turn the man from reference image 1 into an anime character.",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/turn-the-man-from-reference-image-1-into-an-anime-character-7.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Turn the man from reference image 1 into an anime character.",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/turn-the-man-from-reference-image-1-into-an-anime-character-8.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Turn the man from reference image 1 into an anime character.",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/turn-the-man-from-reference-image-1-into-an-anime-character-9.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Turn the man from reference image 1 into an anime character.",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/turn-the-man-from-reference-image-1-into-an-anime-character-10.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Turn the man from reference image 1 into an anime character.",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/turn-the-man-from-reference-image-1-into-an-anime-character-11.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Turn the young man from reference image 1 into an anime character.",
+  "modelo": "Seedream 5.0 Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/turn-the-young-man-from-reference-image-1-into-an-anime-character.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Using image 1 as the base composition and image 2 as the exact logo shape reference, redraw this editorial cartoon meme",
+  "modelo": "Nano Banana Pro",
+  "modalidad": "image",
+  "archivo": "prompts/image/using-image-1-as-the-base-composition-and-image-2-as-the-exact-logo-sh.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "You are given two images batched together.",
+  "modelo": "GPT Image 2",
+  "modalidad": "image",
+  "archivo": "prompts/image/you-are-given-two-images-batched-together.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Yuko hoverboard chase through 2077 Buenos Aires night market, Seedance 2.0 txt2video 15s 9:16 720p with sound",
+  "modelo": "Seedance 2.0",
+  "modalidad": "video",
+  "archivo": "prompts/video/yuko-hoverboard-chase-through-2077-buenos-aires-night-market-seedance.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Debut silhouette trophy cathedral GOAT graffiti darker v02",
+  "modelo": "GPT Image 2",
+  "modalidad": "image",
+  "archivo": "prompts/image/debut-silhouette-trophy-cathedral-goat-graffiti-darker-v02.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Debut silhouette with trophy cathedral behind for hold-to-reveal",
+  "modelo": "GPT Image 2",
+  "modalidad": "image",
+  "archivo": "prompts/image/debut-silhouette-with-trophy-cathedral-behind-for-hold-to-reveal.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Image 1 is the canonical character sheet: her exact suit design, body surface, hair, mask and proportions.",
+  "modelo": "GPT Image 2",
+  "modalidad": "image",
+  "archivo": "prompts/image/image-1-is-the-canonical-character-sheet-her-exact-suit-design-body-su.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Silent Death frontal close deep V plating hand on shoulder",
+  "modelo": "GPT Image 2",
+  "modalidad": "image",
+  "archivo": "prompts/image/silent-death-frontal-close-deep-v-plating-hand-on-shoulder.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Silent Death frontal close shot hand on shoulder eyes dominant",
+  "modelo": "GPT Image 2",
+  "modalidad": "image",
+  "archivo": "prompts/image/silent-death-frontal-close-shot-hand-on-shoulder-eyes-dominant.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Silent Death low-key sensual portrait for X hold-to-reveal trend",
+  "modelo": "GPT Image 2",
+  "modalidad": "image",
+  "archivo": "prompts/image/silent-death-low-key-sensual-portrait-for-x-hold-to-reveal-trend.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Silent Death v04 edit multiref canonico tight close",
+  "modelo": "GPT Image 2",
+  "modalidad": "image",
+  "archivo": "prompts/image/silent-death-v04-edit-multiref-canonico-tight-close.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Silent Death v04 tight close canonical porcelain suit blazing teeth",
+  "modelo": "GPT Image 2",
+  "modalidad": "image",
+  "archivo": "prompts/image/silent-death-v04-tight-close-canonical-porcelain-suit-blazing-teeth.md"
+ },
+ {
+  "tipo": "prompt",
+  "titulo": "Silent Death waist-up medium shot white hair high detail",
+  "modelo": "GPT Image 2",
+  "modalidad": "image",
+  "archivo": "prompts/image/silent-death-waist-up-medium-shot-white-hair-high-detail.md"
+ }
+]

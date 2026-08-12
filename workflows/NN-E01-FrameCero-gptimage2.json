@@ -1,0 +1,79 @@
+{
+ "1": {
+  "inputs": {
+   "image": "060ce41a5034d4844c2235dd098713cd483b7c3d48ee838b46fe6ff7057e5dce.png"
+  },
+  "class_type": "LoadImage"
+ },
+ "2": {
+  "inputs": {
+   "image": "01c92e8f55529838c98b88a7eadabd29dbfac7766ef8df6fb3ae82d3546ead54.png"
+  },
+  "class_type": "LoadImage"
+ },
+ "3": {
+  "inputs": {
+   "image": "9507ffdcbd01b13c428f0648d370175749e25f27ef5ee676060e802538ddf5bc.png"
+  },
+  "class_type": "LoadImage"
+ },
+ "4": {
+  "inputs": {
+   "image1": [
+    "1",
+    0
+   ],
+   "image2": [
+    "2",
+    0
+   ]
+  },
+  "class_type": "ImageBatch"
+ },
+ "5": {
+  "inputs": {
+   "image1": [
+    "4",
+    0
+   ],
+   "image2": [
+    "3",
+    0
+   ]
+  },
+  "class_type": "ImageBatch"
+ },
+ "6": {
+  "inputs": {
+   "n": 1,
+   "seed": 635702007,
+   "size": "1152x2048",
+   "image": [
+    "5",
+    0
+   ],
+   "model": "gpt-image-2",
+   "prompt": "Image 1 is the style reference. Image 2 is the character sheet for the exoskeleton suit. Image 3 is the environment plate of the rooftop.\n\nCompose a single anime frame, 2D cel animation, Cyberpunk Edgerunners aesthetic, Studio Trigger style:\nWide shot in profile, low angle: the matte-black and chrome exoskeleton figure stands still on the edge of the glass skyscraper rooftop from Image 3, gazing left toward the futuristic Buenos Aires skyline and the wide river, full moon rising, cyan circuit lines glowing calmly. Golden hour backlight, warm rim lighting tracing the suit, distant patrol drones and faint magenta haze in the sunset sky.\nVertical 9:16 composition, the figure in the lower half, sky and skyline filling the upper half.\nKeep the exact suit design and chest emblem from Image 2. Keep the rooftop, skyline and lighting from Image 3. Match the line weight, flat cel shading and palette of Image 1.\nSharp clean lineart, flat colors, high detail, no photorealism, no 3D render, no text, no watermark.",
+   "quality": "medium",
+   "background": "auto"
+  },
+  "class_type": "OpenAIGPTImage1"
+ },
+ "7": {
+  "inputs": {
+   "images": [
+    "6",
+    0
+   ],
+   "filename_prefix": "NN_E01_C2_frame"
+  },
+  "class_type": "SaveImage"
+ },
+ "_meta": {
+  "name": "NN-E01-FrameCero-gptimage2",
+  "etapa": "A - Frame Cero",
+  "fecha": "13/06/2026",
+  "descripcion": "gpt-image-2 edit multi-referencia. LoadImage style (1) + LoadImage traje (2) + LoadImage entorno (3) -> ImageBatch (4) -> ImageBatch (5) -> OpenAI GPT Image 2 (6, medium, 1152x2048) -> SaveImage (7). Roles declarados en el prompt. Para cada clip se cambian el LoadImage de entorno (nodo 3), el prompt (nodo 6) y el filename_prefix (nodo 7). Refs cloud: style=060ce41a, traje=01c92e8f, terraza ENV01=9507ffdc, fachada ENV02=586e7191.",
+  "guardado_ui": "nn-e01-framecero-gptimage2.json"
+ }
+}

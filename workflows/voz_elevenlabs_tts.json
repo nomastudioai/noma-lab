@@ -1,0 +1,368 @@
+{
+ "id": "91f6bbe2-ed41-4fd6-bac7-71d5b5864ecb",
+ "extra": {
+  "ds": {
+   "scale": 0.7419999106979582,
+   "offset": [
+    -1358.366670700273,
+    -498.76892168739323
+   ]
+  },
+  "ue_links": [],
+  "frontendVersion": "1.39.14",
+  "VHS_MetadataImage": true,
+  "VHS_latentpreview": false,
+  "links_added_by_ue": [],
+  "VHS_KeepIntermediate": true,
+  "VHS_latentpreviewrate": 0,
+  "workflowRendererVersion": "Vue"
+ },
+ "links": [
+  [
+   295,
+   211,
+   0,
+   208,
+   0,
+   "ELEVENLABS_VOICE"
+  ],
+  [
+   296,
+   210,
+   0,
+   212,
+   0,
+   "AUDIO"
+  ],
+  [
+   297,
+   208,
+   0,
+   215,
+   0,
+   "AUDIO"
+  ]
+ ],
+ "nodes": [
+  {
+   "id": 208,
+   "pos": [
+    2920.0002582856278,
+    880.0000389650954
+   ],
+   "mode": 0,
+   "size": [
+    410,
+    456.96875
+   ],
+   "type": "ElevenLabsTextToSpeech",
+   "color": "#432",
+   "flags": {},
+   "order": 6,
+   "inputs": [
+    {
+     "link": 295,
+     "name": "voice",
+     "type": "ELEVENLABS_VOICE"
+    }
+   ],
+   "bgcolor": "#653",
+   "outputs": [
+    {
+     "name": "AUDIO",
+     "type": "AUDIO",
+     "links": [
+      297
+     ]
+    }
+   ],
+   "properties": {
+    "ver": "0.14.1",
+    "cnr_id": "comfy-core",
+    "Node name for S&R": "ElevenLabsTextToSpeech"
+   },
+   "widgets_values": [
+    "Now, you can generate voice using the ElevenLabs Text - to - Speech node. You can also use your own voice to create a clone.",
+    0.5,
+    "auto",
+    "eleven_multilingual_v2",
+    1,
+    0.75,
+    false,
+    0,
+    "",
+    1,
+    "randomize",
+    "mp3_44100_192"
+   ]
+  },
+  {
+   "id": 210,
+   "pos": [
+    2180,
+    1140
+   ],
+   "mode": 4,
+   "size": [
+    282.796875,
+    152
+   ],
+   "type": "LoadAudio",
+   "flags": {},
+   "order": 0,
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "AUDIO",
+     "type": "AUDIO",
+     "links": [
+      296
+     ]
+    }
+   ],
+   "properties": {
+    "ver": "0.14.1",
+    "cnr_id": "comfy-core",
+    "Node name for S&R": "LoadAudio"
+   },
+   "widgets_values": [
+    "voice_demo.mp3",
+    null,
+    ""
+   ]
+  },
+  {
+   "id": 211,
+   "pos": [
+    2330,
+    880
+   ],
+   "mode": 0,
+   "size": [
+    380,
+    82.65625
+   ],
+   "type": "ElevenLabsVoiceSelector",
+   "flags": {},
+   "order": 1,
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "voice",
+     "type": "ELEVENLABS_VOICE",
+     "links": [
+      295
+     ]
+    }
+   ],
+   "properties": {
+    "ver": "0.14.1",
+    "cnr_id": "comfy-core",
+    "Node name for S&R": "ElevenLabsVoiceSelector"
+   },
+   "widgets_values": [
+    "Roger (male, american)"
+   ]
+  },
+  {
+   "id": 212,
+   "pos": [
+    2530,
+    1140
+   ],
+   "mode": 4,
+   "size": [
+    316.34375,
+    100
+   ],
+   "type": "ElevenLabsInstantVoiceClone",
+   "color": "#432",
+   "flags": {},
+   "order": 5,
+   "inputs": [
+    {
+     "link": 296,
+     "name": "files.audio0",
+     "type": "AUDIO",
+     "label": "audio0"
+    },
+    {
+     "link": null,
+     "name": "files.audio1",
+     "type": "AUDIO",
+     "label": "audio1",
+     "shape": 7
+    }
+   ],
+   "bgcolor": "#653",
+   "outputs": [
+    {
+     "name": "voice",
+     "type": "ELEVENLABS_VOICE",
+     "links": null
+    }
+   ],
+   "properties": {
+    "ver": "0.14.1",
+    "cnr_id": "comfy-core",
+    "Node name for S&R": "ElevenLabsInstantVoiceClone"
+   },
+   "widgets_values": [
+    true
+   ]
+  },
+  {
+   "id": 214,
+   "pos": [
+    2180.0000695806852,
+    1340.0000492370445
+   ],
+   "mode": 4,
+   "size": [
+    280,
+    132
+   ],
+   "type": "RecordAudio",
+   "flags": {},
+   "order": 2,
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "AUDIO",
+     "type": "AUDIO",
+     "links": null
+    }
+   ],
+   "properties": {
+    "ver": "0.14.1",
+    "cnr_id": "comfy-core",
+    "Node name for S&R": "RecordAudio"
+   },
+   "widgets_values": [
+    "",
+    ""
+   ]
+  },
+  {
+   "id": 215,
+   "pos": [
+    3400,
+    880
+   ],
+   "mode": 0,
+   "size": [
+    420,
+    170
+   ],
+   "type": "SaveAudioMP3",
+   "flags": {},
+   "order": 7,
+   "inputs": [
+    {
+     "link": 297,
+     "name": "audio",
+     "type": "AUDIO"
+    }
+   ],
+   "outputs": [],
+   "properties": {
+    "ver": "0.14.1",
+    "cnr_id": "comfy-core",
+    "Node name for S&R": "SaveAudioMP3"
+   },
+   "widgets_values": [
+    "audio/ComfyUI",
+    "V0"
+   ]
+  },
+  {
+   "id": 216,
+   "pos": [
+    3410,
+    1110
+   ],
+   "mode": 4,
+   "size": [
+    410,
+    146.65625
+   ],
+   "type": "SaveAudioOpus",
+   "flags": {},
+   "order": 3,
+   "inputs": [
+    {
+     "link": null,
+     "name": "audio",
+     "type": "AUDIO"
+    }
+   ],
+   "outputs": [],
+   "properties": {
+    "ver": "0.14.1",
+    "cnr_id": "comfy-core",
+    "Node name for S&R": "SaveAudioOpus"
+   },
+   "widgets_values": [
+    "audio/ComfyUI",
+    "128k"
+   ]
+  },
+  {
+   "id": 217,
+   "pos": [
+    2540,
+    1340
+   ],
+   "mode": 0,
+   "size": [
+    310,
+    120
+   ],
+   "type": "Note",
+   "color": "#222",
+   "flags": {},
+   "order": 4,
+   "title": "How to enable bypassed nodes",
+   "inputs": [],
+   "bgcolor": "#653",
+   "outputs": [],
+   "properties": {},
+   "widgets_values": [
+    "Please select and use Ctrl-B to enable the bypassed nodes."
+   ]
+  }
+ ],
+ "config": {},
+ "groups": [
+  {
+   "id": 1,
+   "color": "#3f789e",
+   "flags": {},
+   "title": "Option 2: Create a Voice Clone",
+   "bounding": [
+    2150,
+    1050,
+    710,
+    440
+   ],
+   "font_size": 24
+  },
+  {
+   "id": 2,
+   "color": "#3f789e",
+   "flags": {},
+   "title": "Option 1: Use Preset Voice",
+   "bounding": [
+    2150,
+    790,
+    710,
+    240
+   ],
+   "font_size": 24
+  }
+ ],
+ "version": 0.4,
+ "revision": 0,
+ "last_link_id": 297,
+ "last_node_id": 217
+}
