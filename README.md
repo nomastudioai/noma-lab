@@ -8,6 +8,11 @@ publicaron. Si un prompt está acá es porque dio un resultado que usamos.
 
 **96 prompts** y **3 workflows de ComfyUI**.
 
+> **Esta base se mantiene y se agranda todo el tiempo.** Vamos sumando prompts a
+> medida que producimos, y actualizamos los que mejoran. Volvé cuando quieras:
+> siempre va a haber más que la última vez. Si te sirve, ponele una estrella y
+> te enterás de lo que agregamos.
+
 ## Cómo usarlo
 
 Cada prompt es un `.md` con el texto en un bloque de código, listo para copiar, y
@@ -159,12 +164,6 @@ texto solo no alcanza, describe qué hacer con una referencia que tenés que pon
 [CC BY 4.0](LICENSE). Usalos, modificalos y vendé lo que hagas con ellos. Lo único
 que pedimos es atribución a NoMa Studio AI.
 
-## Qué NO vas a encontrar acá
-
-Trabajo de clientes. Producimos para canales de televisión, marcas y proyectos
-infantiles, y ese material es de ellos, no nuestro. Lo que publicamos es lo que
-hicimos para nuestras propias cuentas.
-
 ---
 
-Hecho por [NoMa Studio AI](https://nomastudio.ai) · [@nicolasmariar](https://instagram.com/nicolasmariar)
+Hecho por [NoMa Studio AI](https://nomastudio.ai) · [@nomastudioai](https://instagram.com/nomastudioai) · [@nicolasmariar](https://instagram.com/nicolasmariar)
