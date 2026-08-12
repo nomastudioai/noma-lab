@@ -8,6 +8,8 @@ language: "en"
 
 # Silent Death waist-up medium shot white hair high detail
 
+![Resultado de Silent Death waist-up medium shot white hair high detail](../../images/silent-death-waist-up-medium-shot-white-hair-high-detail.webp)
+
 ```text
 Anime cel shading, Studio Trigger key visual, crisp confident lineart, hard-edged cel shadows, flat graphic color, richly detailed sensual character illustration.
 

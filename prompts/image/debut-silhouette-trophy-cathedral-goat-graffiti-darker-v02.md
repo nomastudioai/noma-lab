@@ -8,6 +8,8 @@ language: "en"
 
 # Debut silhouette trophy cathedral GOAT graffiti darker v02
 
+![Resultado de Debut silhouette trophy cathedral GOAT graffiti darker v02](../../images/debut-silhouette-trophy-cathedral-goat-graffiti-darker-v02.webp)
+
 ```text
 Bold graphic sports-poster illustration, screen-print and street-art style, heavy ink linework, halftone and spray texture, extreme contrast, flat graphic shapes.
 

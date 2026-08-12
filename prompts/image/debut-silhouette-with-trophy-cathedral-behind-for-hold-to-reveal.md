@@ -8,6 +8,8 @@ language: "en"
 
 # Debut silhouette with trophy cathedral behind for hold-to-reveal
 
+![Resultado de Debut silhouette with trophy cathedral behind for hold-to-reveal](../../images/debut-silhouette-with-trophy-cathedral-behind-for-hold-to-reveal.webp)
+
 ```text
 Bold graphic sports-poster illustration, screen-print and street-art style, heavy ink linework, halftone and spray texture, high contrast, flat graphic shapes.
 

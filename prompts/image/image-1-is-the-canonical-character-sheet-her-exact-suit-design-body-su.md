@@ -8,6 +8,8 @@ language: "en"
 
 # Image 1 is the canonical character sheet: her exact suit design, body surface, hair, mask and proportions.
 
+![Resultado de Image 1 is the canonical character sheet: her exact suit design, body surface, hair, mask and proportions.](../../images/image-1-is-the-canonical-character-sheet-her-exact-suit-design-body-su.webp)
+
 ```text
 Image 1 is the canonical character sheet: her exact suit design, body surface, hair, mask and proportions. Image 2 is the canonical close-up of her face and mask. Keep her design from these references exactly, including the suit exactly as shown, and change ONLY the composition, framing, pose and lighting described below.
 

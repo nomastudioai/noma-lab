@@ -8,6 +8,8 @@ language: "en"
 
 # 2D cel anime keyframe, Cyberpunk: Edgerunners / Studio Trigger style, bold linework, saturated neon palette.
 
+![Resultado de 2D cel anime keyframe, Cyberpunk: Edgerunners / Studio Trigger style, bold linework, saturated neon palette.](../../images/2d-cel-anime-keyframe-cyberpunk-edgerunners-studio-trigger-style-bold.webp)
+
 ```text
 2D cel anime keyframe, Cyberpunk: Edgerunners / Studio Trigger style, bold linework, saturated neon palette. Image 1 is the master style reference: palette, lighting and linework. Image 2 is the character sheet: use the COMBATE mode variant (third from left), matte black plated suit with glowing magenta chest emblem, silver lattice armor plates on gauntlet and boots, exactly as designed in the sheet.
 

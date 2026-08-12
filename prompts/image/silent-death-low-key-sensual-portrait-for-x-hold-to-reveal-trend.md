@@ -8,6 +8,8 @@ language: "en"
 
 # Silent Death low-key sensual portrait for X hold-to-reveal trend
 
+![Resultado de Silent Death low-key sensual portrait for X hold-to-reveal trend](../../images/silent-death-low-key-sensual-portrait-for-x-hold-to-reveal-trend.webp)
+
 ```text
 Anime cel shading, Studio Trigger key visual, crisp confident lineart, hard-edged cel shadows, flat graphic color, sensual character illustration.
 

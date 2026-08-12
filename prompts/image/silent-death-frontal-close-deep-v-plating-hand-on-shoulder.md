@@ -8,6 +8,8 @@ language: "en"
 
 # Silent Death frontal close deep V plating hand on shoulder
 
+![Resultado de Silent Death frontal close deep V plating hand on shoulder](../../images/silent-death-frontal-close-deep-v-plating-hand-on-shoulder.webp)
+
 ```text
 Anime cel shading, Studio Trigger key visual, crisp confident lineart, hard-edged cel shadows, flat graphic color, richly detailed character illustration.
 
