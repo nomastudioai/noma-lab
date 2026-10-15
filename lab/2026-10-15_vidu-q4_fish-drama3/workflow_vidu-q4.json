@@ -1,0 +1,97 @@
+{
+ "1": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "personaje_1_hoja.png"
+  },
+  "_meta": {
+   "title": "Image 1: hoja de tu personaje 1"
+  }
+ },
+ "2": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "personaje_2_hoja.png"
+  },
+  "_meta": {
+   "title": "Image 2: hoja de tu personaje 2"
+  }
+ },
+ "3": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "locacion.png"
+  },
+  "_meta": {
+   "title": "Image 3: locación"
+  }
+ },
+ "4": {
+  "class_type": "LoadAudio",
+  "inputs": {
+   "audio": "voz_personaje_1_3a12s.wav"
+  },
+  "_meta": {
+   "title": "Audio 1: voz del personaje 1 (3 a 12 s)"
+  }
+ },
+ "5": {
+  "class_type": "LoadAudio",
+  "inputs": {
+   "audio": "voz_personaje_2_3a12s.wav"
+  },
+  "_meta": {
+   "title": "Audio 2: voz del personaje 2 (3 a 12 s)"
+  }
+ },
+ "6": {
+  "class_type": "Vidu4ReferenceVideoNode",
+  "inputs": {
+   "model": "Vidu Q4 Preview",
+   "model.reference_images.image_1": [
+    "1",
+    0
+   ],
+   "model.reference_images.image_2": [
+    "2",
+    0
+   ],
+   "model.reference_images.image_3": [
+    "3",
+    0
+   ],
+   "model.reference_audios.audio_1": [
+    "4",
+    0
+   ],
+   "model.reference_audios.audio_2": [
+    "5",
+    0
+   ],
+   "model.prompt": "10-second cinematic vertical scene from a hospital satire, played completely straight like an expensive medical drama.\n\nImage 1 is THE DIRECTOR's character sheet: keep his face, spiky dark hair with the shaved line, salt-and-pepper beard, white coat, light blue shirt and navy tie; take none of its grey background or panel layout. Image 2 is THE SECRETARY's character sheet: keep her face, long dark wavy hair, cream blouse, pearl necklace and black pencil skirt; take none of its grey background or panels. Image 3 is the director's office: keep its yellowed walls, the framed diplomas on the wall, the wooden desk with the green banker's lamp, the wooden door and the window blinds; never copy its framing.\n\nLayout: the Director sits behind the desk, frame-right, under the wall of framed diplomas; one spot in that row of frames is an empty nail inside a clean rectangle of brighter paint. The Secretary stands in the open wooden doorway, frame-left, one shoulder resting on the door frame. Exactly two people. Both are already in place at the first frame. Nobody looks into the lens.\n\n0-1s: wide two-shot, static. The Director squares a stack of forms with two fingers.\n1-4s: slow push-in to a medium close-up of the Director. His eyes reach the empty nail a beat before his head turns; quick shallow blinks; his free hand smooths the top of his hair. Image 1 says, in the voice from audio 1, brisk and officious, losing air at the end: \"Señorita... ¿y mi diploma? Estaba acá colgado.\"\n4-10s: cut to a medium close-up of the Secretary in the doorway, background soft. She is already working the top button of her blouse, unhurried, her eyes on his mouth. At 6s she tucks a strand of hair behind her ear with two fingers. Image 2 says, in the voice from audio 2, warm, low and unhurried: \"Lo mandamos a enmarcar, doctor...\" She holds his gaze for one silent second, pleasant and perfectly still, then: \"...hace tres años.\"\n\nExactly two spoken lines, his first and hers second, each from its own mouth. Rioplatense Spanish from Buenos Aires. Sound: hospital room tone, a fluorescent hum, a distant PA chime. Cold daylight through the blinds, film grain, stable faces.",
+   "model.aspect_ratio": "9:16",
+   "model.resolution": "540p",
+   "model.duration": 10,
+   "model.audio": true,
+   "model.seed": 42
+  },
+  "_meta": {
+   "title": "Vidu Q4 Preview: escena de dos personajes"
+  }
+ },
+ "7": {
+  "class_type": "SaveVideo",
+  "inputs": {
+   "video": [
+    "6",
+    0
+   ],
+   "filename_prefix": "noma_lab/vidu_q4_escena",
+   "format": "mp4",
+   "format.codec": "auto"
+  },
+  "_meta": {
+   "title": "Guardar"
+  }
+ }
+}

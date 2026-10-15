@@ -1,0 +1,109 @@
+{
+ "1": {
+  "class_type": "LoadAudio",
+  "inputs": {
+   "audio": "tu_voz_1_muestra_A.wav"
+  },
+  "_meta": {
+   "title": "Voz 1: muestra de 10 a 30 s"
+  }
+ },
+ "2": {
+  "class_type": "LoadAudio",
+  "inputs": {
+   "audio": "tu_voz_1_muestra_B.wav"
+  },
+  "_meta": {
+   "title": "Voz 1: segunda muestra"
+  }
+ },
+ "3": {
+  "class_type": "LoadAudio",
+  "inputs": {
+   "audio": "tu_voz_2_muestra_A.wav"
+  },
+  "_meta": {
+   "title": "Voz 2: muestra de 10 a 30 s"
+  }
+ },
+ "4": {
+  "class_type": "LoadAudio",
+  "inputs": {
+   "audio": "tu_voz_2_muestra_B.wav"
+  },
+  "_meta": {
+   "title": "Voz 2: segunda muestra"
+  }
+ },
+ "5": {
+  "class_type": "FishAudioInstantVoiceClone",
+  "inputs": {
+   "files.audio0": [
+    "1",
+    0
+   ],
+   "files.audio1": [
+    "2",
+    0
+   ],
+   "enhance_audio_quality": true
+  },
+  "_meta": {
+   "title": "Clon de voz 1"
+  }
+ },
+ "6": {
+  "class_type": "FishAudioInstantVoiceClone",
+  "inputs": {
+   "files.audio0": [
+    "3",
+    0
+   ],
+   "files.audio1": [
+    "4",
+    0
+   ],
+   "enhance_audio_quality": true
+  },
+  "_meta": {
+   "title": "Clon de voz 2"
+  }
+ },
+ "7": {
+  "class_type": "FishAudioTextToSpeech",
+  "inputs": {
+   "text": "@Voice1 [brisk and officious, pitched a little high, losing air at the end] Señorita... ¿y mi diploma? Estaba acá colgado.\n@Voice2 [calm, warm and low, faintly amused] Lo mandamos a enmarcar, doctor... [long pause] [soft tone] hace tres años.",
+   "model": "drama-3",
+   "model.voices.voice0": [
+    "5",
+    0
+   ],
+   "model.voices.voice1": [
+    "6",
+    0
+   ],
+   "model.temperature": 0.7,
+   "model.top_p": 0.7,
+   "model.speed": 1,
+   "model.volume": 0,
+   "model.normalize": false,
+   "seed": 7
+  },
+  "_meta": {
+   "title": "Fish Audio Drama 3: escena de dos voces"
+  }
+ },
+ "8": {
+  "class_type": "SaveAudio",
+  "inputs": {
+   "audio": [
+    "7",
+    0
+   ],
+   "filename_prefix": "noma_lab/drama3_escena"
+  },
+  "_meta": {
+   "title": "Guardar"
+  }
+ }
+}
