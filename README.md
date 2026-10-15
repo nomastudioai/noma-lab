@@ -8,7 +8,7 @@ Además está la base de prompts de IA generativa que usamos de verdad en produc
 con el modelo exacto con el que funcionaron. No son prompts de ejemplo ni generados
 para el repo: si un prompt está acá es porque dio un resultado que usamos.
 
-**96 prompts** y **3 workflows de ComfyUI**.
+**1 tests**, **96 prompts** y **3 workflows de ComfyUI**.
 
 > Somos afiliados de ComfyUI y de Claude. Si vas a probar Comfy Cloud para correr
 > estos workflows, entrá por [nuestro link](https://www.comfy.org/?via=nomastudioai): nos ayuda a seguir
@@ -16,7 +16,9 @@ para el repo: si un prompt está acá es porque dio un resultado que usamos.
 
 ## Lab
 
-Los primeros tests están en camino.
+| Fecha | Test | Herramientas |
+|---|---|---|
+| 2026-10-15 | [Nodos VFX de NVIDIA RTX contra Topaz, upscaling de anime 480p a 1080p](lab/2026-10-15_nvidia-rtx-vfx/README.md) | ComfyUI (Comfy Cloud), RTX Video Super Resolution, RTX Video Frame Generation, Topaz Proteus |
 
 ## Prompts
 
