@@ -1,19 +1,30 @@
-# NoMa Prompts
+# NoMa Lab
 
-Prompts de IA generativa que usamos de verdad en producción, con el modelo exacto
-con el que funcionaron. Los publica [NoMa Studio AI](https://nomastudio.ai).
+El laboratorio abierto de [NoMa Studio AI](https://nomastudio.ai). Cada vez que
+ComfyUI o Claude lanzan algo, lo probamos con material de nuestras producciones y
+publicamos acá el workflow, los prompts y lo que salió, bien o mal.
 
-No son prompts de ejemplo ni generados para el repo: salieron de piezas que se
-publicaron. Si un prompt está acá es porque dio un resultado que usamos.
+Además está la base de prompts de IA generativa que usamos de verdad en producción,
+con el modelo exacto con el que funcionaron. No son prompts de ejemplo ni generados
+para el repo: si un prompt está acá es porque dio un resultado que usamos.
 
 **96 prompts** y **3 workflows de ComfyUI**.
 
-> **Esta base se mantiene y se agranda todo el tiempo.** Vamos sumando prompts a
-> medida que producimos, y actualizamos los que mejoran. Volvé cuando quieras:
-> siempre va a haber más que la última vez. Si te sirve, ponele una estrella y
-> te enterás de lo que agregamos.
+> Somos afiliados de ComfyUI y de Claude. Si vas a probar Comfy Cloud para correr
+> estos workflows, entrá por [nuestro link](https://www.comfy.org/?via=nomastudioai): nos ayuda a seguir
+> publicando tests.
 
-## Cómo usarlo
+## Lab
+
+Los primeros tests están en camino.
+
+## Prompts
+
+> **Esto se mantiene y se agranda todo el tiempo.** Sumamos un test por cada
+> lanzamiento que vale la pena y prompts a medida que producimos. Si te sirve,
+> ponele una estrella y te enterás de lo que agregamos.
+
+### Cómo usarlo
 
 Cada prompt es un `.md` con el texto en un bloque de código, listo para copiar, y
 un encabezado con el modelo y los parámetros que importan (relación de aspecto,
@@ -23,7 +34,7 @@ Un detalle que ahorra frustración: **los prompts que empiezan con `the man from
 reference image 1` o similar necesitan tus propias imágenes de referencia**. El
 texto solo no alcanza, describe qué hacer con una referencia que tenés que poner vos.
 
-## Modelos
+### Modelos
 
 | Modelo | Prompts |
 |---|---|
@@ -45,7 +56,7 @@ texto solo no alcanza, describe qué hacer con una referencia que tenés que pon
 | Sonilo (texto a musica) | 1 |
 | Seedance | 1 |
 
-## Video (17)
+### Video (17)
 
 - [30 second realistic comedy: profile picture comes alive, celebrates 10k followers, clones multiply and squish against ca](prompts/video/30-second-realistic-comedy-profile-picture-comes-alive-celebrates-10k.md) · `Kling Omni Pro (primer y ultimo frame)`
 - [epic anime cavalry charging in a blizzard, cinematic](prompts/video/epic-anime-cavalry-charging-in-a-blizzard-cinematic.md) · `Seedance 2.0 mini`
@@ -65,7 +76,7 @@ texto solo no alcanza, describe qué hacer con una referencia que tenés que pon
 - [The man speaks to camera with calm confidence, subtle natural head movement, static shot.](prompts/video/the-man-speaks-to-camera-with-calm-confidence-subtle-natural-head-move.md) · `Kling Avatar`
 - [Yuko hoverboard chase through 2077 Buenos Aires night market, Seedance 2.0 txt2video 15s 9:16 720p with sound](prompts/video/yuko-hoverboard-chase-through-2077-buenos-aires-night-market-seedance.md) · `Seedance 2.0`
 
-## Imagen (68)
+### Imagen (68)
 
 - [2D cel anime keyframe, Cyberpunk: Edgerunners / Studio Trigger style, bold linework, saturated neon palette.](prompts/image/2d-cel-anime-keyframe-cyberpunk-edgerunners-studio-trigger-style-bold.md) · `GPT Image 2`
 - [arquero granadero sin logo](prompts/image/arquero-granadero-sin-logo.md) · `Nano Banana Pro`
@@ -136,7 +147,7 @@ texto solo no alcanza, describe qué hacer con una referencia que tenés que pon
 - [Using image 1 as the base composition and image 2 as the exact logo shape reference, redraw this editorial cartoon meme](prompts/image/using-image-1-as-the-base-composition-and-image-2-as-the-exact-logo-sh.md) · `Nano Banana Pro`
 - [You are given two images batched together.](prompts/image/you-are-given-two-images-batched-together.md) · `GPT Image 2`
 
-## Audio y voz (14)
+### Audio y voz (14)
 
 - [Argentinos...](prompts/audio/argentinos.md) · `ElevenLabs Multilingual v2`
 - [Argentinos...](prompts/audio/argentinos-2.md) · `ElevenLabs Multilingual v2`
@@ -153,7 +164,7 @@ texto solo no alcanza, describe qué hacer con una referencia que tenés que pon
 - [massive energy explosion impact boom with shockwave](prompts/audio/massive-energy-explosion-impact-boom-with-shockwave.md) · `ElevenLabs Sound Generation`
 - [Sudden fire ignition burst: a deep fwoom of flames igniting instantly, with a short crackling embers tail](prompts/audio/sudden-fire-ignition-burst-a-deep-fwoom-of-flames-igniting-instantly-w.md) · `ElevenLabs SFX v2`
 
-## Workflows de ComfyUI (3)
+### Workflows de ComfyUI (3)
 
 - [locucion con ElevenLabs y clonado de voz](workflows/voz_elevenlabs_tts.json) · `ElevenLabs Multilingual v2`
 - [frame cero con GPT Image 2](workflows/NN-E01-FrameCero-gptimage2.json) · `GPT Image 2`
@@ -166,4 +177,4 @@ que pedimos es atribución a NoMa Studio AI.
 
 ---
 
-Hecho por [NoMa Studio AI](https://nomastudio.ai) · [@nomastudioai](https://instagram.com/nomastudioai) · [@nicolasmariar](https://instagram.com/nicolasmariar)
+Hecho por [NoMa Studio AI](https://nomastudio.ai) · [@nomastudioai](https://instagram.com/nomastudioai) · [@nomaaistudio en X](https://x.com/nomaaistudio) · [@nicolasmariar](https://instagram.com/nicolasmariar)
