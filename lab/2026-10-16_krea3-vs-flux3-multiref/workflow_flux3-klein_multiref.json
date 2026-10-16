@@ -1,0 +1,188 @@
+{
+ "20": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": ""
+  },
+  "_meta": {
+   "title": "image 1"
+  }
+ },
+ "21": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": ""
+  },
+  "_meta": {
+   "title": "image 2"
+  }
+ },
+ "22": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": ""
+  },
+  "_meta": {
+   "title": "image 3"
+  }
+ },
+ "1": {
+  "class_type": "UNETLoader",
+  "inputs": {
+   "unet_name": "flux3_image_klein_sd_int8_convrot.safetensors",
+   "weight_dtype": "default"
+  },
+  "_meta": {
+   "title": "FLUX 3 Klein distilled"
+  }
+ },
+ "2": {
+  "class_type": "CLIPLoader",
+  "inputs": {
+   "clip_name": "qwen3vl_4b_int8_convrot.safetensors",
+   "type": "flux3",
+   "device": "default"
+  },
+  "_meta": {
+   "title": "Text encoder"
+  }
+ },
+ "3": {
+  "class_type": "VAELoader",
+  "inputs": {
+   "vae_name": "flux2-vae.safetensors"
+  },
+  "_meta": {
+   "title": "VAE"
+  }
+ },
+ "4": {
+  "class_type": "CLIPTextEncode",
+  "inputs": {
+   "text": "Using image 1 as the identity reference (face, hair, beard, earring), image 2 as the wardrobe reference and image 3 as the location: the man from image 1 stands behind the wooden desk in the office from image 3, wearing the outfit from image 2, a white cotton lab coat worn open over a pale blue button-down shirt, a navy knit tie and charcoal wool trousers. His face stays exactly as in image 1: short skin fade with volume swept up and back on top, grey-flecked beard on the chin and jawline with a dark moustache, and the small stud earring in his left ear. The office from image 3 stays identical: venetian blinds, red leather sofa, framed diplomas, green banker's lamp. Medium shot at eye level, 35mm lens, warm late-afternoon sunlight through the blinds from the left. Cinematic photorealistic, natural skin texture with visible pores, correct anatomy with five fingers on each visible hand.",
+   "clip": [
+    "2",
+    0
+   ]
+  },
+  "_meta": {
+   "title": "Prompt"
+  }
+ },
+ "5": {
+  "class_type": "ConditioningZeroOut",
+  "inputs": {
+   "conditioning": [
+    "4",
+    0
+   ]
+  },
+  "_meta": {
+   "title": "Negative vacio"
+  }
+ },
+ "7": {
+  "class_type": "EmptyFlux2LatentImage",
+  "inputs": {
+   "width": 1360,
+   "height": 768,
+   "batch_size": 1
+  },
+  "_meta": {
+   "title": "Lienzo 16:9"
+  }
+ },
+ "8": {
+  "class_type": "KSampler",
+  "inputs": {
+   "model": [
+    "1",
+    0
+   ],
+   "positive": [
+    "6",
+    0
+   ],
+   "negative": [
+    "6",
+    1
+   ],
+   "latent_image": [
+    "7",
+    0
+   ],
+   "seed": 1610,
+   "steps": 16,
+   "cfg": 1,
+   "sampler_name": "euler",
+   "scheduler": "simple",
+   "denoise": 1
+  },
+  "_meta": {
+   "title": "Sampler"
+  }
+ },
+ "9": {
+  "class_type": "VAEDecode",
+  "inputs": {
+   "samples": [
+    "8",
+    0
+   ],
+   "vae": [
+    "3",
+    0
+   ]
+  },
+  "_meta": {
+   "title": "Decode"
+  }
+ },
+ "13": {
+  "class_type": "SaveImage",
+  "inputs": {
+   "images": [
+    "9",
+    0
+   ],
+   "filename_prefix": "c1_klein"
+  },
+  "_meta": {
+   "title": "Guardar"
+  }
+ },
+ "6": {
+  "class_type": "ReferenceMultiLatent",
+  "inputs": {
+   "positive": [
+    "4",
+    0
+   ],
+   "negative": [
+    "5",
+    0
+   ],
+   "vae": [
+    "3",
+    0
+   ],
+   "resolution": "resize",
+   "resolution.megapixels": 1,
+   "images.image0": [
+    "20",
+    0
+   ],
+   "images.image1": [
+    "21",
+    0
+   ],
+   "images.image2": [
+    "22",
+    0
+   ]
+  },
+  "_meta": {
+   "title": "Referencias"
+  }
+ }
+}

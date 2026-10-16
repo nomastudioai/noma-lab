@@ -1,0 +1,68 @@
+{
+ "20": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": ""
+  },
+  "_meta": {
+   "title": "image 1"
+  }
+ },
+ "21": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": ""
+  },
+  "_meta": {
+   "title": "image 2"
+  }
+ },
+ "22": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": ""
+  },
+  "_meta": {
+   "title": "image 3"
+  }
+ },
+ "1": {
+  "class_type": "Flux3ImageNode",
+  "inputs": {
+   "prompt": "Using image 1 as the identity reference (face, hair, beard, earring), image 2 as the wardrobe reference and image 3 as the location: the man from image 1 stands behind the wooden desk in the office from image 3, wearing the outfit from image 2, a white cotton lab coat worn open over a pale blue button-down shirt, a navy knit tie and charcoal wool trousers. His face stays exactly as in image 1: short skin fade with volume swept up and back on top, grey-flecked beard on the chin and jawline with a dark moustache, and the small stud earring in his left ear. The office from image 3 stays identical: venetian blinds, red leather sofa, framed diplomas, green banker's lamp. Medium shot at eye level, 35mm lens, warm late-afternoon sunlight through the blinds from the left. Cinematic photorealistic, natural skin texture with visible pores, correct anatomy with five fingers on each visible hand.",
+   "aspect_ratio": "auto",
+   "resolution": "2K",
+   "grounding": false,
+   "safety_tolerance": 4,
+   "seed": 1610,
+   "images.image_1": [
+    "20",
+    0
+   ],
+   "images.image_2": [
+    "21",
+    0
+   ],
+   "images.image_3": [
+    "22",
+    0
+   ]
+  },
+  "_meta": {
+   "title": "FLUX 3 Image"
+  }
+ },
+ "2": {
+  "class_type": "SaveImage",
+  "inputs": {
+   "images": [
+    "1",
+    0
+   ],
+   "filename_prefix": "c1_flux3api"
+  },
+  "_meta": {
+   "title": "Guardar"
+  }
+ }
+}
