@@ -1,0 +1,60 @@
+{
+ "modelo": "OmniHuman 2.0 (BytePlus Vision AI), req_key realman_avatar_picture_omni20_cv",
+ "nota": "Completá imagen_url y audio_url con links públicos de descarga directa (jpg/png y mp3/wav).",
+ "pruebas": [
+  {
+   "id": "T1",
+   "nombre": "dos-personas",
+   "que_mide": "Dos caras en cuadro y un dialogo de dos voces: si reparte cada linea a la boca correcta o hace hablar a los dos.",
+   "imagen_url": "",
+   "audio_url": "",
+   "audio_s": 8.86,
+   "prompt": "Two people in a hospital office: the doctor seated at the desk and the secretary standing in the open doorway at frame-left. The doctor speaks first. His eyes lift from the papers to the wall of framed diplomas a beat before his head follows, and his right hand rises to rub the back of his head. While he speaks, the secretary keeps her lips closed and watches him, with one slow blink. Then she answers him from the doorway, unhurried, fingertips resting at her collar; as soon as she starts, the doctor stops moving, mouth closed, his eyes turning to her, then a quick double-blink. Each line comes out of one mouth only. Static camera."
+  },
+  {
+   "id": "T2",
+   "nombre": "secretaria-pp",
+   "que_mide": "Primer plano 9:16 con linea corta (4,9 s): sincronia de labios de cerca, vida en los ojos y si obedece un movimiento de camara y un gesto pedidos en el prompt.",
+   "imagen_url": "",
+   "audio_url": "",
+   "audio_s": 4.86,
+   "prompt": "The woman stands in the doorway and answers a man seated off-camera at frame-left. She is already leaning one shoulder on the door frame, fingertips resting on her pearl necklace. On the first words her gaze drops to the floor; on the last words it comes back up to him with one slow blink, the corners of her mouth pulling toward a dry half smile she holds back, and a small tilt of the head. Live eyes with small saccades and wet catchlights. Slow push-in of the camera toward her face."
+  },
+  {
+   "id": "T3",
+   "nombre": "capi-canta",
+   "que_mide": "Personaje no humano tejido al crochet, sin boca dibujada (solo puntadas), cantando sobre la mezcla con musica: si inventa una boca, si respeta la textura de lana y si sigue el ritmo.",
+   "imagen_url": "",
+   "audio_url": "",
+   "audio_s": 15.02,
+   "prompt": "The crochet amigurumi capybara sings the song, its stitched mouth opening and closing on every sung syllable and resting in the instrumental gaps. Its head bobs on each beat and sways from side to side; the round black eyes look left and right across the playground as if searching for a friend, then settle on something off-camera at frame-right while the cheeks lift. The yarn texture, the stitches and the orange hat stay intact in every frame; it moves like a handmade stop-motion puppet. Static camera."
+  },
+  {
+   "id": "T4",
+   "nombre": "walter-anime",
+   "que_mide": "Animacion 2D anime con un prop cerca de la boca (la radio) y dos lineas con cambio de tono: si conserva el trazo y el cel shading, y si el prop sobrevive.",
+   "imagen_url": "",
+   "audio_url": "",
+   "audio_s": 11.21,
+   "prompt": "The heavy-set night guard sits at the control desk and talks into the handheld radio he holds close to his chin. First line: routine and unhurried, eyes half-lidded, gaze drifting across the desk. After a half-second pause his eyes open fully, his jaw sets, he leans a few centimetres toward the desk and gives the order flatter and faster, gaze fixed on one point ahead, blinks rare. The radio stays in his right hand for the whole shot. Hand-drawn 2D anime look preserved: clean ink contours, flat cel shading. Static camera."
+  },
+  {
+   "id": "T5",
+   "nombre": "doctor-toma-larga",
+   "que_mide": "Toma larga (33,6 s) con el clon de voz de Nico y tres tramos de actuacion: deriva de identidad y de sincronia en el tiempo, y si la persona del fondo se queda callada.",
+   "imagen_url": "",
+   "audio_url": "",
+   "audio_s": 33.65,
+   "prompt": "The doctor sits behind the desk and talks to the secretary standing in the doorway at frame-left; she stays silent with her lips closed for the whole shot. First stretch: hands flat on the stack of papers, measured voice, eyes moving between the doorway and the wall of diplomas. Middle stretch: he leans forward on his forearms, taps the desk twice with two fingers, gaze locked on the doorway, blinks rare. Final stretch: he leans back in the chair, a short exhale through the nose, one hand rubbing the back of his head, a tired crooked half smile that does not reach the eyes. Static camera; the light from the window blinds stays steady."
+  },
+  {
+   "id": "T6",
+   "nombre": "cyberhacker-trap",
+   "que_mide": "El avatar Cyberhacker de Nico (desafío H3, ilustración semirrealista) cantando un tema de trap argentino electrónico hecho en Suno: rap rápido sobre la mezcla completa, estribillo gritado, gestos al beat.",
+   "imagen_url": "",
+   "audio_url": "",
+   "audio_s": 42.14,
+   "prompt": "The man raps the song straight into the lens, hyping a club crowd that stands right in front of him. Pre-chorus: low and close, chin down, eyes locked on the lens, shoulders bouncing on every kick. On the line 'subilo, subilo' his eyebrows shoot up and his chin lifts. Chorus: he leans toward the camera and shouts the hook with the mouth opening wide on every syllable, head nodding hard on the beat, a quick double-blink between lines and a crooked half grin in the gaps. Live eyes with wet catchlights. Static camera; the grey backdrop and the illustrated look stay exactly as they are."
+  }
+ ]
+}
