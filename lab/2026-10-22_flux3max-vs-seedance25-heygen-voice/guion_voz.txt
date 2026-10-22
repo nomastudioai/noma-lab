@@ -1,0 +1,1 @@
+Probamos la voz Turbo de HeyGen en ComfyUI. Clonamos una muestra corta y le hicimos decir este mismo texto. Ahora escuchen la diferencia entre la versión Turbo, la estándar y la voz que usamos nosotros todos los días.

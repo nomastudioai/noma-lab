@@ -1,0 +1,8 @@
+{
+  "1": {"class_type": "LoadAudio", "inputs": {"audio": ""}, "_meta": {"title": "Muestra de voz (cargar la propia, 10 s o mas)"}},
+  "2": {"class_type": "HeyGenVoiceCloneNode", "inputs": {"audio": ["1", 0], "language": "Spanish", "similarity": "max", "remove_background_noise": true, "seed": 42}, "_meta": {"title": "HeyGen Instant Clone"}},
+  "3": {"class_type": "HeyGenVoiceTextToSpeechNode", "inputs": {"model": "heygen-voice-1-turbo", "model.voice_id": ["2", 0], "model.text": "Probamos la voz Turbo de HeyGen en ComfyUI. Clonamos una muestra corta y le hicimos decir este mismo texto. Ahora escuchen la diferencia entre la versión Turbo, la estándar y la voz que usamos nosotros todos los días.", "model.language": "Spanish", "model.expressiveness_boost": 0.5}, "_meta": {"title": "TTS Turbo"}},
+  "4": {"class_type": "HeyGenVoiceTextToSpeechNode", "inputs": {"model": "heygen-voice-1", "model.voice_id": ["2", 0], "model.text": "Probamos la voz Turbo de HeyGen en ComfyUI. Clonamos una muestra corta y le hicimos decir este mismo texto. Ahora escuchen la diferencia entre la versión Turbo, la estándar y la voz que usamos nosotros todos los días.", "model.language": "Spanish", "model.expressiveness_boost": 0.5}, "_meta": {"title": "TTS Standard"}},
+  "5": {"class_type": "SaveAudioAdvanced", "inputs": {"audio": ["3", 0], "filename_prefix": "audio/heygen_turbo", "format": "mp3", "format.quality": "V0"}, "_meta": {"title": "Guardar Turbo"}},
+  "6": {"class_type": "SaveAudioAdvanced", "inputs": {"audio": ["4", 0], "filename_prefix": "audio/heygen_standard", "format": "mp3", "format.quality": "V0"}, "_meta": {"title": "Guardar Standard"}}
+}

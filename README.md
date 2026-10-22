@@ -8,7 +8,7 @@ Además está la base de prompts de IA generativa que usamos de verdad en produc
 con el modelo exacto con el que funcionaron. No son prompts de ejemplo ni generados
 para el repo: si un prompt está acá es porque dio un resultado que usamos.
 
-**5 tests**, **96 prompts** y **3 workflows de ComfyUI**.
+**6 tests**, **96 prompts** y **3 workflows de ComfyUI**.
 
 > Somos afiliados de ComfyUI y de Claude. Si vas a probar Comfy Cloud para correr
 > estos workflows, entrá por [nuestro link](https://www.comfy.org/?via=nomastudioai): nos ayuda a seguir
@@ -18,6 +18,7 @@ para el repo: si un prompt está acá es porque dio un resultado que usamos.
 
 | Fecha | Test | Herramientas |
 |---|---|---|
+| 2026-10-22 | [FLUX 3 Max vs Seedance 2.5 (Kiti habla) y HeyGen Voice Turbo vs ElevenLabs](lab/2026-10-22_flux3max-vs-seedance25-heygen-voice/README.md) | ComfyUI (Comfy Cloud), FLUX 3 Max (Partner Node), BytePlus ModelArk (Seedance 2.5), HeyGen Voice 1.0 (Partner Node), ElevenLabs |
 | 2026-10-16 | [Stress test de OmniHuman 2.0 (y comparación con la 1.5)](lab/2026-10-16_omnihuman-2/README.md) | OmniHuman 2.0 y 1.5 (BytePlus Vision AI, API), Suno v6, ElevenLabs, ffmpeg |
 | 2026-10-16 | [Krea 3 vs FLUX 3 Image vs FLUX 3 Klein, edición con referencias y texto](lab/2026-10-16_krea3-vs-flux3-multiref/README.md) | ComfyUI (Comfy Cloud), Krea 3 (Partner Node), FLUX 3 Image (Partner Node), FLUX 3 Image Klein (pesos abiertos) |
 | 2026-10-15 | [Vidu Q4 Preview y Fish Audio Drama 3, una escena de serie con dos personajes que hablan](lab/2026-10-15_vidu-q4_fish-drama3/README.md) | ComfyUI (Comfy Cloud), Vidu Q4 Preview, Fish Audio Drama 3, Fish Audio Instant Voice Clone, Seedance 2.0 mini |
