@@ -1,0 +1,56 @@
+{
+  "1": {
+    "class_type": "IdeogramVectorGenerateApi",
+    "_meta": {
+      "title": "Ideogram Vector"
+    },
+    "inputs": {
+      "model": "ideogram-vector-1",
+      "model.prompt": "A crocheted amigurumi capybara in a tiny yellow raincoat, seated and facing the viewer, drawn as a flat vector illustration with bold uniform dark outlines, solid color fills and fine stitch lines across the body. Centered full-body composition on a plain off-white background, even flat shading where every color is a single solid fill. Flat vector illustration with crisp geometric shapes and sharp edges at any size. Clean uninterrupted background running to the frame edge, correct anatomy with four visible paws.",
+      "model.aspect_ratio": "1:1",
+      "model.quality": "high",
+      "model.seed": 1
+    }
+  },
+  "2": {
+    "class_type": "SaveSVGNode",
+    "_meta": {
+      "title": "Save SVG"
+    },
+    "inputs": {
+      "svg": [
+        "1",
+        0
+      ],
+      "filename_prefix": "ideogram_vector_capy"
+    }
+  },
+  "3": {
+    "class_type": "OpenAIGPTImageNodeV2",
+    "_meta": {
+      "title": "GPT Image"
+    },
+    "inputs": {
+      "prompt": "A crocheted amigurumi capybara in a tiny yellow raincoat, seated and facing the viewer, drawn as a flat vector illustration with bold uniform dark outlines, solid color fills and fine stitch lines across the body. Centered full-body composition on a plain off-white background, even flat shading where every color is a single solid fill. Flat vector illustration with crisp geometric shapes and sharp edges at any size. Clean uninterrupted background running to the frame edge, correct anatomy with four visible paws.",
+      "model": "gpt-image-2",
+      "model.size": "2048x2048",
+      "model.background": "opaque",
+      "model.quality": "high",
+      "n": 1,
+      "seed": 1
+    }
+  },
+  "4": {
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save PNG"
+    },
+    "inputs": {
+      "images": [
+        "3",
+        0
+      ],
+      "filename_prefix": "gptimage_capy"
+    }
+  }
+}
