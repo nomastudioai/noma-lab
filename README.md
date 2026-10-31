@@ -8,7 +8,7 @@ Además está la base de prompts de IA generativa que usamos de verdad en produc
 con el modelo exacto con el que funcionaron. No son prompts de ejemplo ni generados
 para el repo: si un prompt está acá es porque dio un resultado que usamos.
 
-**7 tests**, **96 prompts** y **3 workflows de ComfyUI**.
+**8 tests**, **96 prompts** y **3 workflows de ComfyUI**.
 
 > Somos afiliados de ComfyUI y de Claude. Si vas a probar Comfy Cloud para correr
 > estos workflows, entrá por [nuestro link](https://www.comfy.org/?via=nomastudioai): nos ayuda a seguir
@@ -18,6 +18,7 @@ para el repo: si un prompt está acá es porque dio un resultado que usamos.
 
 | Fecha | Test | Herramientas |
 |---|---|---|
+| 2026-10-31 | [Kling 4.0 y Pika H3 Flex contra Seedance 2.5 y 2.0 mini con un personaje realista](lab/2026-10-31_kling4-pika-seedance-realista/README.md) | ComfyUI (Comfy Cloud), Kling 4.0 (Partner Node), Pika H3 Flex (template MiniMax H3 con LoRA), BytePlus ModelArk (Seedance 2.5, Seedance 2.0 mini, Seedream 5.0 pro) |
 | 2026-10-23 | [Ideogram Vector contra GPT Image con el mismo prompt (zoom 28x)](lab/2026-10-23_ideogram-vector-vs-gpt-image/README.md) | ComfyUI (Comfy Cloud), Ideogram Vector (Partner Node), OpenAI GPT Image (Partner Node, gpt-image-2) |
 | 2026-10-22 | [FLUX 3 Max vs Seedance 2.5 (Kiti habla) y HeyGen Voice Turbo vs ElevenLabs](lab/2026-10-22_flux3max-vs-seedance25-heygen-voice/README.md) | ComfyUI (Comfy Cloud), FLUX 3 Max (Partner Node), BytePlus ModelArk (Seedance 2.5), HeyGen Voice 1.0 (Partner Node), ElevenLabs |
 | 2026-10-16 | [Stress test de OmniHuman 2.0 (y comparación con la 1.5)](lab/2026-10-16_omnihuman-2/README.md) | OmniHuman 2.0 y 1.5 (BytePlus Vision AI, API), Suno v6, ElevenLabs, ffmpeg |
